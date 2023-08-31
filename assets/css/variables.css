@@ -1,0 +1,25 @@
+:root {
+    --clr__black21: #212121;
+    --clr__grey3B: #3B3B3B;
+    --clr__grey63: #636363;
+    --clr__greyC7: #C7C7C7;
+    --clr__whiteFF: #FFFFFF;
+    --clr__orangeFF:#FF9E58;
+    --clr__green3F: #3FA143;
+    
+}
+    
+    
+    @font-face {
+        font-family: 'Iceland-Regular';
+        src: url('../fonts/Iceland/Iceland-Regular.ttf');
+    }
+    
+    @font-face {
+        font-family: 'PTSans-Regular';
+        src: url('../fonts/PT_Sans/PTSans-Regular.ttf');
+    }
+    @font-face {
+        font-family: 'PTSans-Bold';
+        src: url('../fonts/PT_Sans/PTSans-Bold.ttf');
+    }

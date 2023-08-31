@@ -1,0 +1,6 @@
+body {
+    background-color: var(--clr__grey63);
+    min-width: 320px;
+    width: fit-content;
+}
+

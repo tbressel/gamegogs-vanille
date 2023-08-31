@@ -1,0 +1,23 @@
+
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 0px;
+}
+    input {
+        height: 30px;
+        width: 50vw;
+        border: none;
+        border-radius: 10px 0px 0px 10px;
+        background-color: var(--clr__whiteFF);
+    }
+
+    button {
+        width: fit-content;
+        height: 30px;
+        border: none;
+        border-radius: 0px 10px 10px 0px;
+        background-color: var(--clr__whiteFF);
+    }
+

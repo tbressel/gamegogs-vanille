@@ -1,0 +1,40 @@
+@import '../variables.scss';
+
+.logo__container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+
+    .logo__image img {
+        width: 80px;
+        height: auto;
+    }
+    .logo__subcontainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2px;
+       
+        
+        .logo__title {        
+            font-family: 'Iceland-Regular';
+            font-size: 50px;
+            text-transform: capitalize;
+            letter-spacing: .25rem;
+            h3 {
+                color: $clr__greyC7;
+            }
+        }
+        .logo__hook {
+            display: flex;
+            justify-content: center;
+            font-family: 'PTSans-Regular';
+            font-size: 16px;          
+            letter-spacing: 0.2rem;
+            text-transform: lowercase;
+    
+            p {
+                color: $clr__greyC7;
+            }
+        }
+    }
+}

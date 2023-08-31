@@ -1,0 +1,22 @@
+
+.btn {
+    display: flex;
+    width: fit-content;
+    padding: 6px;
+    margin: 14px 8px 8px 8px;
+    border: 1px rgba(0, 0, 0, 0.434) solid;
+    border-radius: 10px;
+    font-family: 'PTSans-Regular';
+    font-size: 14px;
+}
+.btn__color-empty {
+    background-color: none;
+}
+.btn__color-orange {
+    background-color:var(--clr__orangeFF);
+}
+.btn__color-green {
+    background-color:var(--clr__green3F);
+    color: var(--clr__whiteFF);
+    font-family: 'PTSans-Bold';
+}

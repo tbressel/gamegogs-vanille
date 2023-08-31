@@ -1,0 +1,33 @@
+
+.logo__container--footer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .logo__image img {
+        width: 60px;
+        height: auto;
+    }
+        .logo__title--footer {        
+            font-family: 'Iceland-Regular';
+            font-size: 30px;
+            text-transform: capitalize;
+            letter-spacing: .25rem;
+        }
+        .logo__title--footer   h3 {
+                color: var(--clr__greyC7);
+            }
+       
+        .logo__hook--footer {
+            display: flex;
+            font-family: 'PTSans-Regular';
+            font-size: 14px;          
+            letter-spacing: 0.2rem;
+            text-transform: lowercase;
+        }
+            .logo__hook--footer  p {
+                color: var(--clr__greyC7);
+            }
