@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
+    margin-bottom: 100px;
+    background-color: var(--clr__grey3B);
 }   
     .header__topcontainer {
         display: flex;
