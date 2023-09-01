@@ -1,13 +1,12 @@
-
-
 .searchbar {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin: 10px 10px 10px 0px;
 }
     input {
         height: 30px;
-        width: 50vw;
+        width: 70vw;
         border: none;
         border-radius: 10px 0px 0px 10px;
         background-color: var(--clr__whiteFF);

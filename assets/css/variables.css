@@ -1,8 +1,11 @@
 :root {
     --clr__black21: #212121;
+    --clr__black21-alpha: #212121b5;
     --clr__grey3B: #3B3B3B;
+    --clr__grey3B-alpha: #3b3b3bb8;
     --clr__grey63: #636363;
     --clr__greyC7: #C7C7C7;
+    --clr__greyC7-alpha: #c7c7c7b1;
     --clr__whiteFF: #FFFFFF;
     --clr__orangeFF:#FF9E58;
     --clr__green3F: #3FA143;

@@ -11,9 +11,11 @@
 }
 .btn__color-empty {
     background-color: none;
+    font-size: 10px;
 }
 .btn__color-orange {
     background-color:var(--clr__orangeFF);
+    font-size: 10px;
 }
 .btn__color-green {
     background-color:var(--clr__green3F);

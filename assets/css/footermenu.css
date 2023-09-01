@@ -22,12 +22,12 @@
 }
 
 .footer__menu_li span {
-    color: var(--clr__greyC7);
+    color: var(--clr__whiteFF);
 }
 
 .footer__menu_li span:hover {
     cursor: pointer;
-    color: var(--clr__grey63);
+    color: var(--clr__greyC7);
 }
 
 
@@ -42,7 +42,7 @@
 }
 
 .footer__menu_li ul li a {
-    color: var(--clr__grey63);
+    color: var(--clr__greyC7);
     font-size: 12px;
 }
 

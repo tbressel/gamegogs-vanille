@@ -19,7 +19,7 @@
             text-transform: capitalize;
         }  
         .logo__title h3 {
-                color: val(--clr__greyC7);
+            color: val(--clr__greyC7);
             }
     .logo__hook {
         display: flex;

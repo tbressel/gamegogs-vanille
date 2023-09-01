@@ -5,11 +5,12 @@
     width:100vw;
     height: 3.4rem;
     background-color: var(--clr__grey3B);
-    transition: 300ms ease-in-out;
+    transition: top 400ms ease-in-out, transition-delay 0s;
+   
 }
 .nav-show {
     top:120px;
-    transition: 300ms ease-in-out;
+    transition: top 400ms ease-in-out, transition-delay 0s;
 }
 
 .navigation > ul {

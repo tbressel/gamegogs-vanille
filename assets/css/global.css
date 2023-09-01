@@ -1,8 +1,16 @@
 
 body {
-    background-color: var(--clr__grey63);
+    /* background-color: var(--clr__grey63); */
     min-width: 320px;
     width: fit-content;
-
+    overflow-x: hidden;
+    /* background-image: url('../img/wallpapers/battle.png'); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
 }
 
+.hidden__container {
+    margin-bottom: 150px;
+    padding: 1px;
+}
