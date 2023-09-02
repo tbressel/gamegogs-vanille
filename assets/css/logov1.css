@@ -10,6 +10,7 @@
         .logo__image img {
             width: 30px;
             height: auto;
+       
         }
         .logo__title {
             margin-top: auto;
@@ -17,9 +18,10 @@
             font-family: 'Iceland-Regular';
             font-size: 20px;
             text-transform: capitalize;
+        
         }  
         .logo__title h3 {
-            color: val(--clr__greyC7);
+            color: var(--clr__greyC7);
             }
     .logo__hook {
         display: flex;

@@ -1,13 +1,12 @@
 .recent-added-items__container {
-    position: relative;
-    z-index: -1;
+    position:relative;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     margin-bottom: 100px;
     padding: 20px;  
     height: fit-content;
-    background-color: var(--clr__whiteFF);
+    background-color: var(--clr__whiteFF-alpha);
 }
 
 .recent-added-items__maintitle {
@@ -25,14 +24,16 @@ flex-wrap: wrap;
 width: 100%;
 }
 .recent-added-items__last-items {
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-bottom: 20px;
-width: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 175px;
 
 }
 .recent-added-items__coverimage {
+
 overflow: hidden;
 border-radius: 5px;
 width: 180px;
@@ -40,13 +41,13 @@ height: 180px;
 text-align: center;
 background-color: rgba(0, 255, 255, 0.223);
 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.577);
-transition: 300ms ease-in-out;
-transform: rotate(0deg);
+transition: 100ms ease-in-out;
+transform: rotate(2deg);
 }
 
 .recent-added-items__coverimage:hover {
-    transform: rotate(1deg);
-    transition: 300ms ease-in-out;
+    transform: rotate(0deg);
+    transition: 100ms ease-in-out;
     cursor: pointer;
 }
 

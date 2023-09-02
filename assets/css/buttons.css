@@ -1,5 +1,6 @@
 
 .btn {
+    color: var(--clr__greyC7);
     display: flex;
     width: fit-content;
     padding: 6px;
@@ -9,11 +10,17 @@
     font-family: 'PTSans-Regular';
     font-size: 14px;
 }
+.btn:hover {
+    cursor: pointer;
+    border: 1px solid var(--clr__whiteFF);
+    color: var(--clr__whiteFF);
+}
 .btn__color-empty {
     background-color: none;
     font-size: 10px;
 }
 .btn__color-orange {
+    color: var(--clr__black21);
     background-color:var(--clr__orangeFF);
     font-size: 10px;
 }

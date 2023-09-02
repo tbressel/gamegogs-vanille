@@ -24,4 +24,9 @@
     align-items: center;
     padding-left: 15px;
     font-family: 'PTSans-Regular';
+    color: var(--clr__greyC7);
+    width: fit-content;
+}
+.submenu__container ul li a:hover {
+    color: var(--clr__whiteFF);
 }

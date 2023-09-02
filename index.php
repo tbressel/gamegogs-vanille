@@ -51,7 +51,7 @@
          </div>
 
 
-         <div class="buttons">
+         <div class=" buttons">
             <span class="btn btn__color-empty">Connexion</span>
             <span class="btn btn__color-orange">Inscription</span>
          </div>
