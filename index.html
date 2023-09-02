@@ -10,6 +10,7 @@
    <link rel="stylesheet" href="./assets/css/variables.css">
    <link rel="stylesheet" href="./assets/css/global.css">
    <link rel="stylesheet" href="./assets/css/headerv1.css">
+   <link rel="stylesheet" href="./assets/css/headermenu.css">
    <link rel="stylesheet" href="./assets/css/logov1.css">
    <link rel="stylesheet" href="./assets/css/buttons.css">
    <link rel="stylesheet" href="./assets/css/searchbarv1.css">
@@ -68,6 +69,24 @@
          <img class="burger" src="./assets/svg/bars-solid.svg" alt="menu burger" width="25px" height="25px">
       </div>
 
+      <div class="submenu__container">
+         <ul>
+            <li>
+               <a href="#"><img src="./assets/svg/bookshelf.svg" alt="">Collection</a>
+            </li>
+            <li>
+               <a href="#"><img src="./assets/svg/star-solid.svg" alt="">Favoris</a>
+            </li>
+            <li>
+               <a href="#"><img src="./assets/svg/cog.svg" alt="">Paramètres</a>
+            </li>
+            <li>
+               <a href="#"><img src="./assets/svg/power.svg" alt="">Déconnexion</a>
+            </li>
+         </ul>
+      </div>
+
+
       <nav id="nav__container" class="navigation">
          <ul>
             <li>
@@ -85,11 +104,13 @@
                   <img src="./assets/svg/cart.svg" alt="">
                </a>
             </li>
-            <li>
+            <li id="sub-item4">
                <a class="js-icon" href="#">
                   <div class="item__container">
                      <img src="./assets/svg/account-box.svg" alt="">
+                     <span class="arrow">
                      <img src="./assets/svg/chevron-up-solid.svg" alt="">
+                     </span>
                   </div>
                </a>
 
@@ -255,6 +276,8 @@
    </footer>
 
    <script src="./assets/js/index.js"></script>
+   <script src="./assets/js/header.js"></script>
+   <script src="./assets/js/footer.js"></script>
 </body>
 
 </html>

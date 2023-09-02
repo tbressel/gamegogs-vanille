@@ -1,0 +1,30 @@
+.submenu__container {
+    position: absolute;
+    z-index: -3;
+    width: 100vw;
+    height: fit-content;
+    top: -20px;
+    padding: 20px 10px 0 10px;
+    background-color: var(--clr__grey3B);
+    transition: top 400ms ease-in-out, transition-delay 0s;
+}
+.submenu__show {
+    top: 154px;
+    transition: top 400ms ease-in-out, transition-delay 0s;
+}
+.submenu__container ul {
+    display: flex;
+    flex-direction: column;
+}
+.submenu__container img {
+    width: 30px;
+    height: 30px;
+    margin-right : 10px;
+}
+.submenu__container ul li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    font-family: 'PTSans-Regular';
+}

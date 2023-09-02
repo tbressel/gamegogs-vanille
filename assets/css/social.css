@@ -12,7 +12,7 @@
     .btn__twitter svg {
         width: 40px;
         height: auto;
-        fill: var(--clr__grey3B);
+        fill: var(--clr__greyC7);
     }
 
     .btn__socialfb svg:hover,
@@ -21,5 +21,5 @@
     .btn__twitter svg:hover {
         width: 40px;
         height: auto;
-        fill: var(--clr__greyC7);
+        fill: var(--clr__grey3B);
     }

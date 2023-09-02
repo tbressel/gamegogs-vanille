@@ -9,8 +9,9 @@
     padding: 5px;
     margin: 5px;
     font-family: 'PTSans-Regular';
-   
+    cursor: pointer;
 }
+
 
 .footer__menu_li {
     display: flex;
