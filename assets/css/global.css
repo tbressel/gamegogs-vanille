@@ -1,13 +1,11 @@
 
 body {
-    /* background-color: var(--clr__grey63); */
     min-width: 320px;
-    width: fit-content;
+   
     overflow-x: hidden;
-    /* background-image: url('../img/wallpapers/battle.png'); */
     background-attachment: fixed;
     background-size: cover;
-    background-position: right;
+    background-position: center;
 }
 
 .hidden__container {

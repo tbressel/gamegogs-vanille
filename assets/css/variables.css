@@ -26,3 +26,7 @@
         font-family: 'PTSans-Bold';
         src: url('../fonts/PT_Sans/PTSans-Bold.ttf');
     }
+    @font-face {
+        font-family: 'PTSans-Italic';
+        src: url('../fonts/PT_Sans/PTSans-Italic.ttf');
+    }
