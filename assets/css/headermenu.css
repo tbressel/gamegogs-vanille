@@ -1,15 +1,12 @@
 .submenu__container {
-    position: absolute;
-    z-index: -3;
-    width: 100vw;
-    height: fit-content;
-    top: -20px;
-    padding: 20px 10px 0 10px;
+    position: relative;
+    z-index: 1;
+    top: -180px;
     background-color: var(--clr__grey3B);
     transition: top 400ms ease-in-out, transition-delay 0s;
 }
 .submenu__show {
-    top: 154px;
+    top: 43px;
     transition: top 400ms ease-in-out, transition-delay 0s;
 }
 .submenu__container ul {

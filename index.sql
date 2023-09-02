@@ -1,7 +1,7 @@
 DROP DATABASE BD_GAMEGOGS;
 
 CREATE DATABASE IF NOT EXISTS BD_GAMEGOGS;
-USE BD_GAMEGOGS;
+USE c1509222c_BD_GAMEGOGS;
 
 CREATE TABLE IF NOT EXISTS video_games (
     id_videogame SMALLINT NOT NULL AUTO_INCREMENT,
@@ -20,3 +20,5 @@ VALUES
 
 
 SELECT * FROM video_games;
+
+--$connexion = new PDO('mysql:host=localhost;dbname=c1509222c_BD_GAMEGOGS', 'c1509222c_zisquier', 'creativeformation');
