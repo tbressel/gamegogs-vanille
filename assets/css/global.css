@@ -7,9 +7,28 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
+    /* animation: movingbackground 60s infinite both; */
 }
 
 .hidden__container {
     margin-bottom: 150px;
     padding: 1px;
 }
+
+/* @keyframes movingbackground {
+    0% {
+        background-size: 100%;
+    }
+
+    25% {
+        background-size: 120%;
+    }
+
+    75% {
+        background-position: top;
+    }
+    100% {
+        background-size: 100%;
+    }
+    
+} */

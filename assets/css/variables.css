@@ -4,6 +4,7 @@
     --clr__grey3B: #3B3B3B;
     --clr__grey3B-alpha: #3b3b3bb8;
     --clr__grey63: #636363;
+    --clr__grey6D: #6D6D6D;
     --clr__greyC7: #C7C7C7;
     --clr__greyC7-alpha: #c7c7c7b1;
     --clr__whiteFF: #FFFFFF;
@@ -26,6 +27,10 @@
     @font-face {
         font-family: 'PTSans-Bold';
         src: url('../fonts/PT_Sans/PTSans-Bold.ttf');
+    }
+    @font-face {
+        font-family: 'PTSans-BoldItalic';
+        src: url('../fonts/PT_Sans/PTSans-BoldItalic.ttf');
     }
     @font-face {
         font-family: 'PTSans-Italic';

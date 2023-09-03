@@ -1,3 +1,8 @@
+.buttons__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 .btn {
     color: var(--clr__greyC7);
@@ -10,14 +15,37 @@
     font-family: 'PTSans-Regular';
     font-size: 14px;
 }
+.btn__item {
+    color: var(--clr__black21);
+    display: flex;
+    width: fit-content;
+    padding: 6px;
+    margin: 14px 8px 8px 8px;
+    border: 1px rgba(0, 0, 0, 0.434) solid;
+    border-radius: 10px;
+    font-family: 'PTSans-Regular';
+}
 .btn:hover {
     cursor: pointer;
     border: 1px solid var(--clr__whiteFF);
     color: var(--clr__whiteFF);
 }
+.btn__item:hover {
+    cursor: pointer;
+    border: 1px solid var(--clr__greyC7);
+    color: var(--clr__greyC7);
+}
 .btn__color-empty {
     background-color: none;
     font-size: 10px;
+}
+.btn__item--color-empty {
+    background-color: none;
+    font-size: 16px;
+}
+.btn__item--color-orange {
+    background-color:var(--clr__orangeFF);
+    font-size: 16px;
 }
 .btn__color-orange {
     color: var(--clr__black21);
