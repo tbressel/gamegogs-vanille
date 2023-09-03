@@ -1,0 +1,48 @@
+.collection-items__header {
+    position: fixed;
+    z-index: 4;
+    top: 128px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: fit-content;
+  
+}
+
+.collection__topheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+.collection__topheader form {
+    display: flex;
+    align-items: center;
+}
+
+.collection__middleheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.collection__sortlist select {
+    height: 2rem;
+}
+.viewtype__container  {
+    display: flex;
+    flex-direction: row;
+}
+
+.viewtype__container span img {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    
+}
+.collection__bottomheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
