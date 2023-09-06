@@ -7,12 +7,9 @@
 
 <div id="list-items" class="recent-added-items__last-items-container">
    <?php
-   try {
-       $connexion = new PDO('mysql:host=localhost;dbname=BD_GAMEGOGS', 'zisquier', 'pass');
-      //$connexion = new PDO('mysql:host=localhost;dbname=c1509222c_BD_GAMEGOGS', 'c1509222c_zisquier', 'creativeformation');
-   } catch (PDOException $getError) {
-      echo 'erreur :' . $getError->getMessage();
-   }
+  
+   include('../../includes/dbconnect.php');
+
    $req = 'SELECT * FROM video_games';
    $req_results = $connexion->query($req);
    
