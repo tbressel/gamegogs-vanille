@@ -3,11 +3,11 @@
     z-index: 2;
     top:-175px;
     background-color: var(--clr__grey3B);
-    transition: top 400ms ease-in-out, transition-delay 0s;
+    transition: top 100ms ease-in-out, transition-delay 0s;
 }
 .nav-show {
     top:-125px;
-    transition: top 400ms ease-in-out, transition-delay 0s;
+    transition: top 100ms ease-in-out, transition-delay 0s;
 }
 .navigation > ul {
     display: flex;
@@ -34,10 +34,10 @@
 
 .arrow {
     transform: rotate(0deg);
-    transition:  400ms ease-in-out, transition-delay 0s;
+    transition:  200ms ease-in-out, transition-delay 0s;
 }
 
 .arrow_change {
     transform: rotate(180deg);
-    transition:  400ms ease-in-out, transition-delay 0s;
+    transition:  200ms ease-in-out, transition-delay 0s;
 }

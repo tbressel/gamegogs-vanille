@@ -3,11 +3,11 @@
     z-index: 1;
     top: -180px;
     background-color: var(--clr__grey3B);
-    transition: top 400ms ease-in-out, transition-delay 0s;
+    transition: top 100ms ease-in-out, transition-delay 0s;
 }
 .submenu__show {
     top: 43px;
-    transition: top 400ms ease-in-out, transition-delay 0s;
+    transition: top 100ms ease-in-out, transition-delay 0s;
 }
 .submenu__container ul {
     display: flex;
@@ -18,7 +18,7 @@
     height: 30px;
     margin-right : 10px;
 }
-.submenu__container ul li a{
+.submenu__container ul li{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,6 +27,7 @@
     color: var(--clr__greyC7);
     width: fit-content;
 }
-.submenu__container ul li a:hover {
+.submenu__container ul li:hover {
+    cursor: pointer;
     color: var(--clr__whiteFF);
 }
