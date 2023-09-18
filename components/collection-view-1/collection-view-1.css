@@ -200,19 +200,41 @@ min-height: 150px;
 
 
 
+.note-informations.hidden,
+.bot-informations.hidden {
+    display: none;
+}
 
+.bit-items__subcontainer {
+    display: flex;
+    flex-direction: columns;
+    align-items: flex-start;
+}
 
-
-
-.collection-item__maincontainer {
+.note-informations {
+    display: flex;
+    justify-content: flex-start;
+}
+.input-notes {
+    width: 150%;
+    height: 120px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: aliceblue;
+    padding: 5px;
+}
+.top-informations,
+.bot-informations {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 100vw;
     height: fit-content;
     background-color: aliceblue;
-    padding: 5px;
-  
+    /* padding: 5px; */
+}
+.bot-informations {
+    padding: 0px;
 }
 .collection-basicinfos__subcontainer {
     display: flex;
