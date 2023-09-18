@@ -10,10 +10,7 @@
             </button>
         </form>
     </div>
-    
-    
-    
-    
+      
     <div class="collection__middleheader">
         <div class="collection__sortlist">
             <label for="trier">Trier

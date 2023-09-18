@@ -20,7 +20,7 @@
    <div class="collection-items__editor"><p>' . $result[7] . '</p></div>
    <div class="collection-items__year"><p>' . $result[6] . '</p></div>
    </div>
-   </div><div class="arrow"><img src="./assets/svg/chevron-up-solid.svg" alt=""></div>
+   </div><div class="arrow"><img id="arrow-img" src="./assets/svg/chevron-up-solid.svg" alt=""></div>
    </div>
    </div>';
    }

@@ -13,8 +13,6 @@
    $req = 'SELECT * FROM video_games';
    $req_results = $connexion->query($req);
    
-   
-   
    foreach ($req_results as $result) {
 
       // version miniature

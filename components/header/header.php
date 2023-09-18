@@ -1,12 +1,9 @@
-
-
+<!-- The top part of the header -->
 <header class="header__container">
-
    <div class="header__topcontainer">
-
-      <div class="logov1">
-         <div class="logo__container">
-            <div class="logo__subcontainer">
+      <div class="header__logo">
+         <div class="header__logo_container">
+            <div class="header__logo_subcontainer">
                <div class="logo__image">
                   <img src="./assets/logo-gamgogs.png" alt="logo-gamgogs">
                </div>
@@ -23,9 +20,9 @@
       </div>
 
 
-      <div class=" buttons">
-         <span class="btn btn__color-empty">Connexion</span>
-         <span class="btn btn__color-orange">Inscription</span>
+      <div class="buttons">
+         <span id="connexion" class="btn btn__color-empty">Connexion</span>
+         <span id="inscription" class="btn btn__color-orange">Inscription</span>
       </div>
    </div>
 

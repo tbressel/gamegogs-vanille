@@ -39,13 +39,13 @@ height: 140px;
 text-align: center;
 /* background-color: rgba(0, 255, 255, 0.223); */
 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.577);
-transition: 100ms ease-in-out;
+transition: 500ms ease-in-out;
 transform: rotate(2deg);
 }
 
 .recent-added-items__coverimage:hover {
     transform: rotate(0deg);
-    transition: 100ms ease-in-out;
+    transition: 500ms ease-in-out;
     cursor: pointer;
 }
 
@@ -91,7 +91,7 @@ min-height: 150px;
     height: fit-content;
     border-radius: 10px;
     line-height: 15px;
-    animation: maxify 150ms forwards;  
+    animation: maxify 10ms forwards;  
 }
 
 @keyframes maxify {

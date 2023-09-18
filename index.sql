@@ -16,10 +16,23 @@ CREATE TABLE IF NOT EXISTS video_games (
     year_videogame SMALLINT(4),
     editor_videogame VARCHAR(40),
     country_videogame VARCHAR(20),
-    ref_videogame VARCHAR(20), -- Correction : virgule manquante ici
-    support_videogame VARCHAR(20), -- Correction : virgule manquante ici
+    ref_videogame VARCHAR(20), 
+    support_videogame VARCHAR(20),
     PRIMARY KEY (id_videogame)
 );
+
+CREATE TABLE IF NOT EXISTS users (
+    id_user SMALLINT NOT NULL AUTO_INCREMENT,
+    name_user VARCHAR(50),
+    firstname_user VARCHAR(64),
+    pseudo_user VARCHAR(25),
+    password_user VARCHAR(25),
+    PRIMARY KEY (id_user)
+);
+
+INSERT INTO users (name_user, firstname_user, pseudo_user, password_user)
+VALUES
+    ('BRESSEL','Thomas','zisquier','motdepasse');
 
 INSERT INTO video_games (title_videogame, subtitle_videogame, plateform_videogame, genre_videogame, coverpic_videogame, year_videogame, editor_videogame, country_videogame, ref_videogame, support_videogame)
 VALUES

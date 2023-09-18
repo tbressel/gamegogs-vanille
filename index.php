@@ -44,10 +44,9 @@
       <div id="collection-view-2" class="js-modulenode"></div>
       <div id="collection-view-3" class="js-modulenode"></div>
 
-
-
       <div id="top-search-module" class="js-modulenode"></div>
       <div id="top-sells-module" class="js-modulenode"></div>
+      <div id="session-module" class="js-modulenode"></div>
       <div id="newsletter-module" class="js-modulenode"></div>
    </main>
 
@@ -64,16 +63,7 @@
 
 
    <!-- Javascript -->
-   <script src="./assets/js/ajax.js"></script>
-   <script src="./assets/js/index.js"></script>
-   <script src="./assets/js/header.js"></script>
-   <script src="./assets/js/footer.js"></script>
-   <script src="./assets/js/items.js"></script>
-
-
-   <script>
-     
-   </script>
+   <script type="module" src="./assets/js/index.js"></script>
 </body>
 
 </html>

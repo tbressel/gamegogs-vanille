@@ -1,8 +1,8 @@
-.logo__container {
+.header__logo_container {
     padding: 2px;
     width: fit-content;
 }
-    .logo__subcontainer {
+    .header__logo_subcontainer {
         display: flex;
         flex-direction: row;
         padding: 2px;
