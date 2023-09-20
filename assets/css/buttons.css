@@ -46,10 +46,6 @@
     border: 1px solid var(--clr__greyC7);
     color: var(--clr__greyC7);
 }
-.btn__color-empty {
-    background-color: none;
-    font-size: 10px;
-}
 .btn__item--color-empty {
     background-color: none;
     font-size: 16px;
@@ -67,4 +63,9 @@
     background-color:var(--clr__green3F);
     color: var(--clr__whiteFF);
     font-family: 'PTSans-Bold';
+}
+
+.btn__color-empty {
+    background-color: none;
+    font-size: 10px;
 }

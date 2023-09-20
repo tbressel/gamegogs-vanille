@@ -8,7 +8,7 @@
                   <img src="./assets/logo-gamgogs.png" alt="logo-gamgogs">
                </div>
                <div class="logo__title">
-                  <h3>gamegogs</h3>
+                  <h1 class="color-white">gamegogs</h1>
                </div>
             </div>
             <div class="logo__hook">

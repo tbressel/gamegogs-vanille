@@ -15,6 +15,43 @@ body {
     padding: 1px;
 }
 
+
+
+.color-white {
+    color: var(--clr__whiteFF);
+}
+
+
+h3 {
+    font-size: 16px;
+    font-family: 'PTSans-Bold';
+}
+
+h4 {
+    font-size: 14px;
+    font-family: 'PTSans-Bold';
+    font-weight: 600;
+}
+h4 span {
+    font-size: 14px;
+    font-family: 'PTSans-Italic';
+    font-weight: 100;
+}
+
+h5 {
+    font-size: 12px;
+    font-family: 'PTSans-Bold';
+    font-weight: 400;
+}
+
+h5 span{
+    font-size: 12px;
+    font-family: 'PTSans-Italic';
+    font-weight: 100;
+}
+
+
+
 /* @keyframes movingbackground {
     0% {
         background-size: 100%;

@@ -35,7 +35,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="arrow">
+                     <div class="arrow collection-arrow">
                         <img id="arrow-img" src="./assets/svg/chevron-up-solid.svg" alt="">
                      </div>
                   </div>
@@ -52,8 +52,8 @@
                               <h5>Ajouté <span>il y a 1 ans et 6 mois</span></h5>
                               <p>Très bon état - presque Mint</p>
                            </div>
-                           <div>
-                              <h4>Notes <span id="edit-notes"> Editer les notes </span></h4>
+                           <div class="bot-items__notes">
+                              <h4>Notes <span id="edit-notes" class="edit-notes"> Editer les notes </span></h4>
                            </div>
                         </div>
                      </div>
@@ -61,8 +61,10 @@
                      <div class="select__bar"></div>
                         <form class="form-notes" method="get" action="#" name"text-notes">
                            <label htmlfor="input-notes">
-                              <input id="input-notes" class="input-notes" name="notes" type="text">
+                              <textarea id="input-notes" class="input-notes" name="notes" rows="10" cols="50"></textarea>
                            </label>
+                           <button class="btn__collection btn__color-green" type="submit" formaction="#">Enregistrer</button>
+                           <button id="textarea-erase" class="btn__collection btn__color-empty">Annuler</button>
                         </form>
                      </div>
                   </div>   
