@@ -1,3 +1,10 @@
+/*
+------------------------------------
+First Part of CSS collection view 1
+------------------------------------
+*/
+
+
 .recent-added-items__container {
     position:relative;
     display: flex;
@@ -38,13 +45,13 @@ width: 140px;
 height: 140px;
 text-align: center;
 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.577);
-transition: 100ms ease-in-out;
+transition: 500ms ease-in-out;
 transform: rotate(2deg);
 }
 
 .recent-added-items__coverimage:hover {
     transform: rotate(0deg);
-    transition: 100ms ease-in-out;
+    transition: 500ms ease-in-out;
     cursor: pointer;
 }
 
@@ -56,24 +63,12 @@ min-height: 150px;
 .selected__item {
     border: red 4px solid;
 }
-
-
-
-
 .recent-added-items__title,
 .collection-items__title {
     text-align: left;
     margin-top: 10px;
     font-family: 'PTSans-Bold';
 }
-
-
-.collection-items__title {
-    margin-top: -5px;
-}
-
-
-
 .recent-added-items__subtitle,
 .collection-items__subtitle {
     text-align: left;
@@ -97,11 +92,10 @@ min-height: 150px;
     flex-direction: column;
     background-color:var(--clr__whiteFF); 
     width: 0vw;
-    /* width: 100vw; */
     height: fit-content;
     border-radius: 10px;
     line-height: 15px;
-    animation: maxify 150ms forwards;  
+    animation: maxify 10ms forwards;  
 }
 
 @keyframes maxify {
@@ -202,27 +196,39 @@ min-height: 150px;
     color: var(--clr__grey6D);
 }
 
+.note-informations.hidden,
+.bot-informations.hidden {
+    display: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-.collection-item__maincontainer {
+.bit-items__subcontainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: columns;
+    align-items: flex-start;
+}
+
+.note-informations {
+    display: flex;
+    justify-content: flex-start;
+}
+.input-notes {
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 5px;
+    width: 95%;
+}
+.top-informations,
+.bot-informations {
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     width: 100vw;
     height: fit-content;
     background-color: aliceblue;
-    padding: 5px;
-  
+    /* padding: 5px; */
+}
+.bot-informations {
+    padding: 0px;
 }
 .collection-basicinfos__subcontainer {
     display: flex;
@@ -245,19 +251,10 @@ min-height: 150px;
     padding: 5px;
 }
 
-
-.collection-arrow {
-    position: absolute;
-    right: 40px;
-}
-
 .arrow img {
     width: 35px;
     height: 25px;
 }
-
-
-
 
 .collection-items__coverimage:hover {
     cursor: pointer;
@@ -280,17 +277,95 @@ min-height: 150px;
 }
 
 
+.collection-items__title {
+    font-size: 12px;
+    margin-top: 0px;
+}
 .collection-items__subtitle,
 .collection-items__editor,
 .collection-items__year,
 .collection-items__plateform {
     font-size: 12px;
     font-family: 'PTSans-Italic';
+    
+}
+
+/*
+-----------------------------------
+First Part of CSS collection view 3
+-----------------------------------
+*/
+
+
+
+.recent-added-maxitem__price{
+    margin-top: 15px;
+    margin-left: 10%;
+    font-family: 'PTSans-Regular';
+    font-size: 13px;
+    line-height: 9.5px;
+    color: var(--clr__grey6D);
+}
+
+.collection-item__maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+    height: fit-content;
+    background-color: aliceblue;
+    /* padding: 5px; */
+  
+}
+.collection-basicinfos__subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.select__bar {
+    display: flex;
+    width: 22px;
+    background-color:rgb(220, 220, 245);
+}
+
+.collection-basicinfos__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+    padding: 5px;
+}
+
+
+.collection-arrow {
+    position: absolute;
+    right: 40px;
+}
+
+.collection-items__title {
+    margin-top: -5px;
+}
+
+.collection-items__subtitle,
+.collection-items__editor,
+.collection-items__year,
+.collection-items__plateform {
     padding: 2px;
 }
 
 .bot-items__subcontainer {
-    margin-left: 85px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-right: 25px;
+    width: 85%;
+}
+
+.bot-items__prices {
+    width:150px;
 }
 .bot-items__prices h4 {
    padding: 5px;
@@ -321,9 +396,15 @@ min-height: 150px;
 
 .bot-items__notes {
     margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .bot-items__notes,
 .edit-notes:hover {
     cursor: pointer;
+}
+
+.form-notes {
+    text-align: center;
 }

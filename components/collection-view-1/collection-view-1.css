@@ -1,3 +1,10 @@
+/*
+------------------------------------
+First Part of CSS collection view 1
+------------------------------------
+*/
+
+
 .recent-added-items__container {
     position:relative;
     display: flex;
@@ -37,7 +44,6 @@ border-radius: 5px;
 width: 140px;
 height: 140px;
 text-align: center;
-/* background-color: rgba(0, 255, 255, 0.223); */
 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.577);
 transition: 500ms ease-in-out;
 transform: rotate(2deg);
@@ -57,7 +63,6 @@ min-height: 150px;
 .selected__item {
     border: red 4px solid;
 }
-
 .recent-added-items__title,
 .collection-items__title {
     text-align: left;
@@ -87,7 +92,6 @@ min-height: 150px;
     flex-direction: column;
     background-color:var(--clr__whiteFF); 
     width: 0vw;
-    /* width: 100vw; */
     height: fit-content;
     border-radius: 10px;
     line-height: 15px;
@@ -191,14 +195,6 @@ min-height: 150px;
     line-height: 9.5px;
     color: var(--clr__grey6D);
 }
-
-
-
-
-
-
-
-
 
 .note-informations.hidden,
 .bot-informations.hidden {

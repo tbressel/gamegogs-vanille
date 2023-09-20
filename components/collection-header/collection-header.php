@@ -29,13 +29,13 @@
         
         <ul class="viewtype__container">
             <li>
-                <img src="./assets/svg/table-cells-large-solid.svg" alt="" data-pathID="collection-view-1"> 
+                <img src="./assets/svg/table-cells-large-solid.svg" alt="" data-pathID="collection-view-1" data-css="collection-view"> 
             </li>
             <li>
-                <img src="./assets/svg/list-solid.svg" alt=""  data-pathID="collection-view-2">         
+                <img src="./assets/svg/list-solid.svg" alt=""  data-pathID="collection-view-2" data-css="collection-view">         
             </li>
             <li>         
-                <img src="./assets/svg/align-justify-solid.svg" alt="" data-pathID="collection-view-3">         
+                <img src="./assets/svg/align-justify-solid.svg" alt="" data-pathID="collection-view-3" data-css="collection-view">         
             </li>
         </ul>
     </div>

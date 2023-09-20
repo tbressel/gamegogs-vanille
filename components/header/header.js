@@ -20,9 +20,12 @@ document.querySelectorAll(".js-submenu__item").forEach(item => {
         navigation.closeMenu();
         navigation.deleteAllModules();
         let pathItem = item.getAttribute("data-pathID");
-        fetch.modulUpdate(`./components/${pathItem}/${pathItem}.php`, `./components/${pathItem}/${pathItem}.css`, `${pathItem}`);
+
+        console.log ("pathItem : ",pathItem)
+
+        fetch.modulUpdate(`./components/${pathItem}/${pathItem}.php`, `./components/${pathItem}/${pathItem}.css`, `${pathItem}`,'collection-header');
         pathItem = item.getAttribute("data-headerID");
-        fetch.modulUpdate(`./components/${pathItem}/${pathItem}.php`, `./components/${pathItem}/${pathItem}.css`, `${pathItem}`);
+        fetch.modulUpdate(`./components/${pathItem}/${pathItem}.php`, `./components/${pathItem}/${pathItem}.css`, `${pathItem}`,'collection-header');
     })
 });
 
@@ -34,7 +37,8 @@ document.getElementById("collection-header").addEventListener('click', (event) =
     }
     navigation.deleteAllModules("collection-header");
     let pathItem = target.getAttribute("data-pathID");
-    fetch.modulUpdate(`./components/${pathItem}/${pathItem}.php`, `./components/${pathItem}/${pathItem}.css`, `${pathItem}`);
+    let typeItem = target.getAttribute("data-css");
+    fetch.modulUpdate(`./components/${pathItem}/${pathItem}.php`, `./components/${pathItem}/${pathItem}.css`, `${pathItem}`, `${typeItem}`);
 })
 
 
