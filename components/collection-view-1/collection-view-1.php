@@ -1,10 +1,6 @@
 
 <section class="recent-added-items__container">
 
-<div class="recent-added-items__maintitle">
-   <h2>Explorer les ajouts récents</h2>
-</div>
-
 <div id="list-items" class="recent-added-items__last-items-container">
    <?php
   

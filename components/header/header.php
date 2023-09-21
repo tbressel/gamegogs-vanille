@@ -43,16 +43,19 @@
 
    <div id="profil-submenu" class="submenu__container">
       <ul>
-         <li class="js-submenu__item" data-pathID="collection-view-1" data-typeCSS="collection-view"  data-headerID="collection-header" >
+      <li class="li">
+         <p></p>
+         </li>
+         <li class="li js-submenu__item" data-pathID="collection-view-1" data-typeCSS="collection-view"  data-headerID="collection-header" >
             <img src="./assets/svg/bookshelf.svg" alt="">Collection
          </li>
-         <li class="js-submenu__item" data-pathID="">
+         <li class="li js-submenu__item" data-pathID="">
             <img src="./assets/svg/star-solid.svg" alt="">Favoris
          </li>
-         <li class="js-submenu__item" data-pathID="">
+         <li class="li js-submenu__item" data-pathID="">
             <img src="./assets/svg/cog.svg" alt="">Paramètres
          </li>
-         <li class="js-submenu__item" data-pathID="">
+         <li class="li js-submenu__item" data-pathID="">
             <img src="./assets/svg/power.svg" alt="">Déconnexion
          </li>
       </ul>

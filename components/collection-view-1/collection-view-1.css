@@ -3,17 +3,20 @@
 First Part of CSS collection view 1
 ------------------------------------
 */
+.collection-view-1 {
+    position: relative;
+    margin-top:45px
+}
 
 
 .recent-added-items__container {
     position:relative;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
     margin-bottom: 100px;
     padding: 20px;  
     height: fit-content;
-    background-color: var(--clr__whiteFF-alpha);
+    background-color: var(--clr__whiteFF);
 }
 
 .recent-added-items__maintitle {

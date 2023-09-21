@@ -6,7 +6,7 @@
     transition: top 100ms ease-in-out, transition-delay 0s;
 }
 .submenu__show {
-    top: 43px;
+    top: 44px;
     transition: top 100ms ease-in-out, transition-delay 0s;
 }
 .submenu__container ul {
@@ -22,12 +22,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 52px;
     font-family: 'PTSans-Regular';
     color: var(--clr__greyC7);
     width: fit-content;
+    margin-bottom: 15px;
 }
 .submenu__container ul li:hover {
     cursor: pointer;
     color: var(--clr__whiteFF);
+}
+
+.li {
+    height: 15px;
 }
