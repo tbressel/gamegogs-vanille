@@ -3,29 +3,50 @@ import * as fetch from '../../assets/js/fetch.js';
 
 // Listen to burger menu and close submenu if is opened
 navigation.burgerMenu.addEventListener('click', () => {
+
+    // main menu closing
     navigation.closeMenu();
+
+    // if submenu is open, then close it
     if (navigation.displayProfilMenu)
     navigation.closeSubMenu();
 });
 
-// toggle submenu
+
+
+
+// Lisenting to submenu state and toggle
 navigation.profilMenu.addEventListener('click', () => {
     navigation.closeSubMenu();
 });
 
-// profil submenu choix 
+
+
+// User submenu links redirection en configuration 
 document.querySelectorAll(".js-submenu__item").forEach(item => {
     item.addEventListener('click', () => {
+
+        // closing sub menu
         navigation.closeSubMenu();
+
+        // closing main menu
         navigation.closeMenu();
+
+        // delete all modules
         navigation.deleteAllModules();
+
+        // get data-pathID and typeCssItem on the actuel clicked item
         let pathItem = item.getAttribute("data-pathID");
+            console.log ("pathItem : ",pathItem);
+            let typeCssItem = item.getAttribute("data-typeCSS");
+            console.log ("pathItem : ",typeCssItem);
 
-        console.log ("pathItem : ",pathItem)
-
-        fetch.modulUpdate(`./components/${pathItem}/${pathItem}.php`, `./components/${pathItem}/${pathItem}.css`, `${pathItem}`,'collection-header');
+        // calling function with the fetched url inside to create main page
+        fetch.modulUpdate(`./components/${pathItem}/${pathItem}.php`, `./components/${pathItem}/${pathItem}.css`, `${pathItem}`,`${typeCssItem}`);
+        
+        // calling function to create header
         pathItem = item.getAttribute("data-headerID");
-        fetch.modulUpdate(`./components/${pathItem}/${pathItem}.php`, `./components/${pathItem}/${pathItem}.css`, `${pathItem}`,'collection-header');
+        fetch.modulUpdate(`./components/${pathItem}/${pathItem}.php`, `./components/${pathItem}/${pathItem}.css`, `${pathItem}`,`${pathItem}`);
     })
 });
 

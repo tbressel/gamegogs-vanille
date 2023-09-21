@@ -295,8 +295,10 @@ min-height: 150px;
 First Part of CSS collection view 3
 -----------------------------------
 */
-
-
+.collection-view-3 {
+    position: relative;
+    margin-top:45px
+}
 
 .recent-added-maxitem__price{
     margin-top: 15px;

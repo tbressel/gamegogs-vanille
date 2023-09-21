@@ -44,14 +44,14 @@ border-radius: 5px;
 width: 140px;
 height: 140px;
 text-align: center;
-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.577);
+/* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.577);
 transition: 500ms ease-in-out;
-transform: rotate(2deg);
+transform: rotate(2deg); */
 }
 
 .recent-added-items__coverimage:hover {
-    transform: rotate(0deg);
-    transition: 500ms ease-in-out;
+    /* transform: rotate(0deg);
+    transition: 500ms ease-in-out; */
     cursor: pointer;
 }
 

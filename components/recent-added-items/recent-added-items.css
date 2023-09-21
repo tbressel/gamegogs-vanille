@@ -5,7 +5,6 @@ First Part of CSS collection view 1
 */
 
 
-
 .recent-added-items__container {
     position:relative;
     display: flex;
@@ -213,10 +212,12 @@ min-height: 150px;
     justify-content: flex-start;
 }
 .input-notes {
+    /* width: 150%;
+    height: 120px; */
     border-radius: 5px;
     border: solid 1px black;
+    /* background-color: aliceblue; */
     padding: 5px;
-    width: 95%;
 }
 .top-informations,
 .bot-informations {
@@ -289,117 +290,4 @@ min-height: 150px;
     font-size: 12px;
     font-family: 'PTSans-Italic';
     
-}
-
-/*
------------------------------------
-First Part of CSS collection view 2
------------------------------------
-*/
-.collection-view-2 {
-    position: relative;
-    margin-top:45px
-}
-
-
-
-
-.recent-added-maxitem__price{
-    margin-top: 15px;
-    margin-left: 10%;
-    font-family: 'PTSans-Regular';
-    font-size: 13px;
-    line-height: 9.5px;
-    color: var(--clr__grey6D);
-}
-
-.collection-item__maincontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100vw;
-    height: fit-content;
-    background-color: aliceblue;
-    /* padding: 5px; */
-  
-}
-.collection-basicinfos__subcontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-.select__bar {
-    display: flex;
-    width: 22px;
-    background-color:rgb(220, 220, 245);
-}
-
-.collection-basicinfos__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 50%;
-    padding: 5px;
-}
-
-
-.collection-arrow {
-    position: absolute;
-    right: 40px;
-}
-
-.collection-items__title {
-    margin-top: -5px;
-}
-
-.collection-items__subtitle,
-.collection-items__editor,
-.collection-items__year,
-.collection-items__plateform {
-    padding: 2px;
-}
-
-.bot-items__subcontainer {
-    margin-left: 85px;
-}
-.bot-items__prices h4 {
-   padding: 5px;
-}
-
-.bot-items__prices h4 span {
-    float: right;
-}
-
-
-.bot-items__date-state {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.bot-items__date-state p {
-   margin: 5px;
-   font-size: 12px;
-   font-family: 'PTSans-Italic';
-}
-
-.bot-items__date-state h5 {
-   margin: 5px;
-   font-size: 12px;
-   font-family: 'PTSans-Bold';
-   
-}
-
-.bot-items__notes {
-    margin: 5px;
-}
-
-.bot-items__notes,
-.edit-notes:hover {
-    cursor: pointer;
-}
-
-.form-notes {
-    text-align: center;
 }

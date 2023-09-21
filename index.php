@@ -40,12 +40,13 @@
 
 
       <div id="collection-header" class="js-modulenode"></div>
-      <div id="collection-view-1" class="js-modulenode"></div>
-      <div id="collection-view-2" class="js-modulenode"></div>
-      <div id="collection-view-3" class="js-modulenode"></div>
+      <div id="collection-view-1" class="js-modulenode collection-view-1"></div>
+      <div id="collection-view-2" class="js-modulenode collection-view-2"></div>
+      <div id="collection-view-3" class="js-modulenode collection-view-3"></div>
 
       <div id="top-search-module" class="js-modulenode"></div>
       <div id="top-sells-module" class="js-modulenode"></div>
+      <div id="recent-added-items" class="js-modulenode recent-added-items"></div>
       <div id="session-module" class="js-modulenode"></div>
       <div id="newsletter-module" class="js-modulenode"></div>
    </main>

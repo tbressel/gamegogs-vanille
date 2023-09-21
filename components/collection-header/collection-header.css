@@ -1,7 +1,7 @@
 .collection-items__header {
     position: fixed;
     z-index: 4;
-    top: 128px;
+    top: 127px;
     background-color: rgb(255, 255, 255);
     width: 100vw;
     height: fit-content;
